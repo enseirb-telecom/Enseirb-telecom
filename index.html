@@ -21,6 +21,9 @@
 
 <!-- ==================== HEADER ==================== -->
 <header id="header">
+  <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
   <div class="header-top">
     <div>
       <div class="logo">ENSEIRB-MATMECA</div>
@@ -41,6 +44,7 @@
       <li><a href="#etudiants"  class="nav-link"        data-page="etudiants">Étudiants</a></li>
       <li><a href="#faq"        class="nav-link"        data-page="faq">FAQ</a></li>
       <li><a href="#admission"  class="nav-link"        data-page="admission">Admission</a></li>
+      <li><a href="#actualites" class="nav-link"        data-page="actualites">Actualités</a></li>
       <li><a href="#contact"    class="nav-link"        data-page="contact">Contact</a></li>
     </ul>
   </nav>
@@ -490,6 +494,67 @@
   </div>
 </section>
 
+
+<!-- ==================== ACTUALITÉS ==================== -->
+<section id="actualites" class="page-section">
+  <div class="container">
+    <h1>Actualités</h1>
+    <div class="highlight-box" style="text-align:center;font-size:1.1rem;">
+      <p><strong>📰 Les derniers événements du département Télécommunications</strong></p>
+    </div>
+
+    <div class="news-list">
+
+      <!-- Soutenances S8 — 11 mai 2026 -->
+      <div class="news-item">
+        <div class="news-content">
+          <span class="news-date">📅 11 mai 2026</span>
+          <h3>🎓 Soutenances des projets S8 — Promotion 2026</h3>
+          <p>Les étudiants de 2ème année ont présenté leurs projets de semestre 8 devant un jury composé d'enseignants-chercheurs et de professionnels de l'industrie. Au programme : POLARIS, SHIFT, Digital Twin, DOR, MailFilter, Jeu de Dames IA et Détection de collisions de drones par chiffrement homomorphe.</p>
+          <div class="news-photos">
+            <img src="images/Polaris.jpeg"               alt="Équipe POLARIS — codes polaires 5G">
+            <img src="images/SHIFT.jpeg"                 alt="Équipe SHIFT — séries temporelles financières">
+            <img src="images/DIGITA_TWIN.jpeg"           alt="Équipe Digital Twin HERO — réalité virtuelle">
+            <img src="images/Time_Model_Factory.jpeg"    alt="Équipe STOCHA-FORGE — Time Model Factory">
+            <img src="images/JEUX_dames.jpeg"            alt="Équipe Jeu de Dames IA">
+            <img src="images/DOR.jpeg"                   alt="Équipe DOR — Dynamic Onion Routing">
+            <img src="images/Mail_filter.jpeg"           alt="Équipe MailFilter">
+            <img src="images/3D_collision_Detection.jpeg" alt="Équipe Détection de Collisions Drones">
+          </div>
+          <div style="margin-top:1.25rem;">
+            <span class="badge">Projets S8</span>
+            <span class="badge">Soutenances</span>
+            <span class="badge">5G</span>
+            <span class="badge">Cybersécurité</span>
+            <span class="badge">IA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visite Cdiscount — 27 mars 2026 -->
+      <div class="news-item">
+        <div class="news-content">
+          <span class="news-date">📅 27 mars 2026</span>
+          <h3>🛒 Visite des entrepôts Cdiscount — Partenariat industriel</h3>
+          <p>Les étudiants du département Télécommunications ont visité les entrepôts logistiques de <strong>Cdiscount</strong>, partenaire industriel de la filière. Une immersion dans les coulisses d'un des leaders du e-commerce français : systèmes automatisés, convoyeurs haute cadence, Big Data et infrastructures réseau à grande échelle.</p>
+          <div class="news-photos">
+            <img src="images/C_DISCOUNT.jpeg"                    alt="Étudiants chez Cdiscount — entrepôt">
+            <img src="images/C-DISCOUNT.jpeg"                    alt="Visite C-Logistics Cdiscount">
+            <img src="images/Relations_entreprises_C-DISCOUNT.jpeg" alt="Systèmes automatisés Cdiscount">
+          </div>
+          <div style="margin-top:1.25rem;">
+            <span class="badge">Cdiscount</span>
+            <span class="badge">Visite industrielle</span>
+            <span class="badge">Logistique</span>
+            <span class="badge">Big Data</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ==================== CONTACT ==================== -->
 <section id="contact" class="page-section">
   <div class="container">
@@ -522,6 +587,7 @@
       <a href="#entreprises" class="footer-nav" data-page="entreprises">Entreprises & Labo</a>
       <a href="#etudiants"   class="footer-nav" data-page="etudiants">Étudiants</a>
       <a href="#faq"         class="footer-nav" data-page="faq">FAQ</a>
+      <a href="#actualites"  class="footer-nav" data-page="actualites">Actualités</a>
       <a href="#admission"   class="footer-nav" data-page="admission">Admission</a>
       <a href="#contact"     class="footer-nav" data-page="contact">Contact</a>
     </div>
@@ -560,7 +626,7 @@
         <span class="counter-stat-label">Ce mois</span>
       </div>
     </div>
-    <p style="margin-top:1.5rem;opacity:.85;font-size:.9rem;">⚡ Sessions enregistrées localement — Se met à jour à chaque visite</p>
+    <p style="margin-top:1.5rem;opacity:.85;font-size:.9rem;">⚡ Compteur global partagé entre tous les visiteurs</p>
   </div>
 
   <div class="footer-bottom">

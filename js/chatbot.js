@@ -105,6 +105,14 @@ Nouvelle-Aquitaine 37% · Île-de-France 37% · International 3%<br><br>
 Conseil & bureaux d'études 50% · Informatique 29% · Aéronautique 5%`,
     replies: ['🏢 Partenaires industriels', '📚 Programme', '📞 Contact']
   },
+  actualites: {
+    text: `📰 <strong>Actualités récentes :</strong><br><br>
+🎓 <strong>11 mai 2026</strong> — Soutenances des projets S8<br>
+Les étudiants de 2A ont présenté POLARIS, SHIFT, Digital Twin, DOR, MailFilter, Jeu de Dames IA et Détection de collisions drones.<br><br>
+🛒 <strong>27 mars 2026</strong> — Visite des entrepôts Cdiscount<br>
+Immersion dans les coulisses du e-commerce : systèmes automatisés, Big Data, infrastructures réseau.`,
+    replies: ['🔧 Projets S8/S9', '🏢 Partenaires', '📚 Programme']
+  },
   default: {
     text: `Bonjour ! Je peux vous renseigner sur :<br><br>
 📋 Admission &nbsp;|&nbsp; 📚 Programme &nbsp;|&nbsp; 💼 Stages<br>
@@ -125,6 +133,7 @@ function matchResponse(msg) {
   if (/frais|prix|coût|scolarité|tarif|gratuit/.test(m))           return RESPONSES.frais;
   if (/spécialisation|rsc|aisc|glrt|option/.test(m))               return RESPONSES.specialisations;
   if (/international|étranger|mobilité|anglais/.test(m))           return RESPONSES.international;
+  if (/actualit|événement|visite|soutenance|news/.test(m))           return RESPONSES.actualites;
   if (/insertion|emploi|travail|salaire|métier/.test(m))           return RESPONSES.insertion;
   return RESPONSES.default;
 }

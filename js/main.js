@@ -174,3 +174,25 @@ document.addEventListener('DOMContentLoaded', () => {
   initVisitorCounter();
   initConsole();
 });
+
+/* ---- Hamburger Menu (mobile) ---- */
+function initHamburger() {
+  const btn = document.getElementById('hamburgerBtn');
+  const nav = document.querySelector('nav');
+  if (!btn || !nav) return;
+
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('open');
+    nav.classList.toggle('open');
+  });
+
+  // Fermer le menu quand on clique sur un lien
+  document.querySelectorAll('.nav-link').forEach(l => {
+    l.addEventListener('click', () => {
+      btn.classList.remove('open');
+      nav.classList.remove('open');
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initHamburger);
