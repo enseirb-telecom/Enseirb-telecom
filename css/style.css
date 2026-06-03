@@ -109,6 +109,12 @@ header.scrolled {
 @keyframes shimmer { 0%,100% { filter: brightness(1); } 50% { filter: brightness(1.35); } }
 .logo-subtitle { font-size: .85rem; opacity: .88; margin-top: .1rem; }
 .header-contact { text-align: right; font-size: .85rem; line-height: 1.7; opacity: .92; }
+.brand { display: flex; align-items: center; gap: 1.1rem; min-width: 0; }
+.brand-logos { display: inline-flex; align-items: center; text-decoration: none; }
+.brand-logo { height: 46px; width: auto; display: block; transition: transform .25s ease; }
+.brand-logo + .brand-logo { margin-left: .9rem; padding-left: .9rem; border-left: 1px solid rgba(255,255,255,.28); }
+.brand-logos:hover .brand-logo { transform: translateY(-2px); }
+.brand-text { min-width: 0; }
 
 /* ---------- Navigation ---------- */
 nav {
@@ -116,10 +122,11 @@ nav {
   border-top: 1px solid rgba(255,255,255,.1);
 }
 nav ul { max-width: 1400px; margin: 0 auto; display: flex; list-style: none; padding: 0 1rem; }
-nav li { flex: 1; }
+nav li { flex: 1; display: flex; }
 nav a {
   color: #fff; text-decoration: none; font-weight: 600; font-size: .82rem;
-  padding: .85rem .5rem; display: block; text-align: center;
+  padding: .85rem .5rem;
+  flex: 1; display: flex; align-items: center; justify-content: center; text-align: center;
   border-bottom: 3px solid transparent;
   transition: all .28s ease;
   position: relative; overflow: hidden; letter-spacing: .3px;
@@ -212,7 +219,7 @@ h2::after {
 /* ---------- Stats ---------- */
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1.75rem; margin: 2.5rem 0;
 }
 .stat-card {
@@ -476,8 +483,9 @@ footer::before {
 @keyframes bounceBadge { 0%,100% { transform: scale(1); } 50% { transform: scale(1.2); } }
 
 .chatbot-window {
-  position: fixed; bottom: 110px; right: 2rem;
+  position: fixed; bottom: 190px; right: 2rem;
   width: 400px; height: 600px;
+  max-height: calc(100dvh - 210px);
   background: #fff; border-radius: 24px;
   box-shadow: 0 24px 64px rgba(0,0,0,.3);
   display: none; flex-direction: column; overflow: hidden;

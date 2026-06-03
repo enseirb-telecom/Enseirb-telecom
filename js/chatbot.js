@@ -50,11 +50,77 @@ Parrainés par Thales et Atos.`,
     replies: ['🔒 Spécialisation RSC', '🤖 Spécialisation AISC', '🏢 Partenaires']
   },
   faq: {
-    text: `❓ <strong>FAQ :</strong><br><br>
-La rubrique FAQ est en cours de construction.<br><br>
-📝 <em>À remplir — À discuter avec Delphine</em><br><br>
-En attendant, posez-moi votre question directement !`,
-    replies: ['📋 Admission', '📚 Programme', '💼 Stages', '📞 Contact']
+    text: `❓ <strong>FAQ — Questions fréquentes :</strong><br><br>
+Posez-moi votre question, ou choisissez un thème ci-dessous :`,
+    replies: ['📅 Absences', '📄 Certificat de scolarité', '📊 Relevé de notes', '🎓 Attestation / diplôme', '🪪 Carte étudiant', '💳 Paiement échelonné', '⏱️ Tiers temps', '🧑‍💼 Étudiant salarié', '🎯 Affectation des projets']
+  },
+  faqAbsence: {
+    text: `📅 <strong>Absence — que faire ?</strong><br><br>
+• <strong>Vous avez été absent :</strong> vous avez <strong>48h</strong> pour envoyer un justificatif au secrétariat (sec_telecom@enseirb-matmeca.fr) et prévenir les enseignants concernés.<br>
+• <strong>Vous allez être absent :</strong> prévenez à l'avance le secrétariat et les enseignants.<br><br>
+⚠️ Pour le CREL et le CREGE, justifiez aussi votre absence auprès des secrétariats concernés.`,
+    replies: ['❌ Absence injustifiée ?', '📄 Certificat de scolarité', '📞 Contact']
+  },
+  faqAbsenceInjustifiee: {
+    text: `❌ <strong>Absence injustifiée (ABI) :</strong><br><br>
+• En cas d'examen ou de TP noté, vous êtes compté <strong>« ABI »</strong> : les moyennes (module, UE, semestre, voire année) ne sont pas calculées → résultat <strong>« Défaillant »</strong>.<br>
+• Un nombre important d'ABI peut compromettre la validation du semestre ou de l'année (décision du jury).<br>
+• Dès la 1ère année, un manque d'assiduité peut peser sur vos affectations futures (options, parcours, projets).`,
+    replies: ['📅 Justifier une absence', '🎯 Affectation des projets', '📞 Contact']
+  },
+  faqAffectation: {
+    text: `🎯 <strong>Affectation des projets S8/S9 et des options (S8) :</strong><br><br>
+Vous recevez la liste des projets, parcours et options, puis vous formulez vos vœux en ligne.<br><br>
+Les affectations tiennent compte de :<br>
+• vos résultats aux semestres précédents,<br>
+• votre assiduité et votre sérieux,<br>
+• le nombre de places disponibles.<br><br>
+Il n'est donc pas toujours possible d'obtenir son 1er ou 2e choix.`,
+    replies: ['🔧 Projets S8/S9', '📚 Programme', '📞 Contact']
+  },
+  faqCertificat: {
+    text: `📄 <strong>Certificat de scolarité :</strong><br><br>
+Disponible sur l'<strong>ENT étudiant</strong> une fois votre inscription administrative finalisée.<br><br>
+Sinon, contactez la scolarité : <strong>scol_info_telecom@enseirb-matmeca.fr</strong>`,
+    replies: ['📊 Relevé de notes', '🎓 Attestation / diplôme', '📞 Contact']
+  },
+  faqReleve: {
+    text: `📊 <strong>Relevé de notes :</strong><br><br>
+Disponible sur l'<strong>ENT</strong> après la publication officielle des résultats.<br><br>
+🇬🇧 <strong>Version anglaise :</strong> elle peut aussi être disponible sur l'ENT.<br><br>
+En cas de besoin, contactez la scolarité : <strong>scol_info_telecom@enseirb-matmeca.fr</strong>`,
+    replies: ['📄 Certificat de scolarité', '🎓 Attestation / diplôme', '📞 Contact']
+  },
+  faqDiplome: {
+    text: `🎓 <strong>Attestation de réussite / diplôme :</strong><br><br>
+Merci de contacter la scolarité : <strong>scol_info_telecom@enseirb-matmeca.fr</strong>`,
+    replies: ['📊 Relevé de notes', '📄 Certificat de scolarité', '📞 Contact']
+  },
+  faqCarte: {
+    text: `🪪 <strong>Carte d'étudiant :</strong><br><br>
+• <strong>Mise à jour annuelle</strong> (nouvel autocollant) : lors de la réunion de rentrée et de l'appel dans la RUE. Sinon, rendez-vous à la scolarité.<br>
+• <strong>En cas de perte :</strong> une nouvelle carte est créée par la scolarité (frais de <strong>10 €</strong>).`,
+    replies: ['📄 Certificat de scolarité', '📞 Contact']
+  },
+  faqPaiement: {
+    text: `💳 <strong>Payer en plusieurs fois :</strong><br><br>
+Lors de l'inscription en ligne, vous pouvez demander un <strong>paiement échelonné</strong>.<br><br>
+En cas de difficultés financières, informez rapidement la scolarité : <strong>scol_info_telecom@enseirb-matmeca.fr</strong>`,
+    replies: ['💰 Frais de scolarité', '📞 Contact']
+  },
+  faqTiersTemps: {
+    text: `⏱️ <strong>Tiers temps / aménagement d'études :</strong><br><br>
+Contactez l'<strong>Espace Santé Étudiant (ESE)</strong> ainsi que la responsable de la scolarité.<br><br>
+Pensez aussi à informer votre département (secrétariat et direction).`,
+    replies: ['🧑‍💼 Étudiant salarié', '📞 Contact']
+  },
+  faqSalarie: {
+    text: `🧑‍💼 <strong>Étudiant salarié — scolarité adaptée :</strong><br><br>
+Prenez contact avec :<br>
+• le directeur du département,<br>
+• le directeur des études,<br>
+• la responsable de la scolarité.`,
+    replies: ['⏱️ Tiers temps', '📞 Contact']
   },
   contact: {
     text: `📞 <strong>Nous contacter :</strong><br><br>
@@ -124,6 +190,16 @@ Immersion dans les coulisses du e-commerce : systèmes automatisés, Big Data, i
 function matchResponse(msg) {
   const m = msg.toLowerCase();
   if (/faq|foire|question fr/.test(m))                              return RESPONSES.faq;
+  if (/injustifi|non[\s-]?justifi|pas justifi|ne justifi|sans justif|défaillant|defaillant|\babi\b/.test(m)) return RESPONSES.faqAbsenceInjustifiee;
+  if (/absence|absent/.test(m))                                     return RESPONSES.faqAbsence;
+  if (/affect|vœu|voeu/.test(m))                                    return RESPONSES.faqAffectation;
+  if (/certificat/.test(m))                                         return RESPONSES.faqCertificat;
+  if (/relevé|releve/.test(m))                                      return RESPONSES.faqReleve;
+  if (/attestation|diplôme|diplome/.test(m))                        return RESPONSES.faqDiplome;
+  if (/carte/.test(m))                                              return RESPONSES.faqCarte;
+  if (/échelonn|echelonn|plusieurs fois|mensualis|paiement|payer/.test(m)) return RESPONSES.faqPaiement;
+  if (/tiers[\s-]?temps|aménagement|amenagement|adaptation/.test(m)) return RESPONSES.faqTiersTemps;
+  if (/salarié|salarie/.test(m))                                    return RESPONSES.faqSalarie;
   if (/admission|candidat|intégrer|rejoindre|postuler/.test(m))    return RESPONSES.admission;
   if (/programme|formation|cours|cursus|semestre/.test(m))         return RESPONSES.programme;
   if (/stage|pfe|alternance|apprentissage/.test(m))                return RESPONSES.stages;
