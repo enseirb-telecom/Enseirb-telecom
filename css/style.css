@@ -637,6 +637,8 @@ footer::before {
 
 /* ---------- Responsive Mobile ---------- */
 @media (max-width: 768px) {
+  .header-contact { display: none; }
+  .brand-logo { height: 34px; }
   .hamburger { display: flex; }
   nav { display: none; }
   nav.open { display: block; }
