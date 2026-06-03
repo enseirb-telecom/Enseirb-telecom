@@ -46,7 +46,7 @@ Ces entreprises proposent des stages, projets S8/S9 et des interventions réguli
 POLARIS (codes polaires 5G) · SHIFT (ML financier) · Digital Twin VR · DOR (routage anonyme) · Jeu de Dames IA · MailFilter · Drones chiffrés<br><br>
 <strong>S9 (3A) :</strong><br>
 Restauration d'images par diffusion · The Polar Game (RL) · KARMA (Kalman/cyber) · Assistant IA & MCP · Stockage distribué chiffré · IoT & Paillier<br><br>
-Parrainés par Thales et Atos.`,
+Parrainés par Thales .`,
     replies: ['🔒 Spécialisation RSC', '🤖 Spécialisation AISC', '🏢 Partenaires']
   },
   faq: {
